@@ -115,10 +115,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="TechSupport_Data.MDF">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="TechSupport_Data_log.ldf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>TechSupport_Data.MDF</DependentUpon>
     </Content>
   </ItemGroup>

@@ -40,6 +40,10 @@ namespace Maintain_Technicians
             {
                 MessageBox.Show("Database error # " + ex.Number + ": " + ex.Message, ex.GetType().ToString());
             }
+            //catch(InvalidOperationException ex)
+            //{
+            //    MessageBox.Show(ex.Message, ex.GetType().ToString());
+            //}
         }
 
         private void Form1_Load(object sender, EventArgs e)
